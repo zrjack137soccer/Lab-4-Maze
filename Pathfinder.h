@@ -28,6 +28,7 @@ public:
     void createRandomMaze();
     bool importMaze(string file_name);
     vector <string> solveMaze();
+    bool findPath(int x, int y, int z);
     
 protected:
   
